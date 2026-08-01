@@ -1,8 +1,25 @@
 aid: rawsome-pte-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rawsome-pte-ltd.png
 name: Rawsome Pte. Ltd.
-description: Rawsome Pte. Ltd. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Rawsome Pte. Ltd. (trading as Rawsome Asia Beverages) is a Singapore-based producer and
+  distributor of small-batch, handcrafted raw kombucha sold under the Wild Boocha brand. The company
+  brews fermented tea beverages -- including Citrus Green, Strawberry Mint, and Harmony Adaptogenic
+  flavors -- available in one-liter bottles and refillable mini kegs, and markets them as a functional
+  wellness drink rich in probiotics, polyphenols, B vitamins, vitamin C, organic enzymes, and amino
+  acids. Rawsome operates a direct-to-consumer e-commerce storefront (built on Odoo) and was surfaced
+  as a portfolio company of 500 Global. This profile currently has no public API, developer portal, or
+  developer documentation; it is maintained in the API Evangelist network as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/rawsome-pte-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Beverages
+- Kombucha
+- Food and Beverage
+- E-Commerce
+- Health and Wellness
+- Singapore
+- Consumer Packaged Goods
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rawsome-pte-ltd-domain-security.yml
 - type: Website
   url: https://wildboocha.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
